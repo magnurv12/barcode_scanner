@@ -22,7 +22,7 @@ class BarcodeController {
       await cameraController!.initialize();
       listenCamera();
     } catch (e) {
-      //
+      print(e);
     }
   }
 
